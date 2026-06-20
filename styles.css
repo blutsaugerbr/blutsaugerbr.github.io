@@ -65,8 +65,8 @@ body {
 }
 
 .logo-img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     border: 2px solid var(--text-primary);
     object-fit: cover;
@@ -166,15 +166,24 @@ body {
     margin-bottom: 2rem;
 }
 
-.profile-pic {
-    width: 150px;
-    height: 150px;
+.profile-pic-placeholder {
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     border: 3px solid var(--text-primary);
-    object-fit: cover;
-    filter: grayscale(100%) contrast(1.1);
-    box-shadow: 0 10px 40px rgba(255, 255, 255, 0.1);
+    background: var(--card-bg);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
     animation: slideDown 0.8s ease-out;
+    overflow: hidden;
+}
+
+.profile-pic-placeholder svg {
+    width: 100%;
+    height: 100%;
 }
 
 @keyframes slideDown {
@@ -269,9 +278,9 @@ body {
         font-size: 0.9rem;
     }
     
-    .profile-pic {
-        width: 120px;
-        height: 120px;
+    .profile-pic-placeholder {
+        width: 100px;
+        height: 100px;
     }
 }
 
