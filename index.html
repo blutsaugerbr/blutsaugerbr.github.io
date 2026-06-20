@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Editor Portfolio - High-Retention Edits for YouTube & Shorts</title>
+    <meta name="description" content="Professional video editor specializing in high-retention YouTube Shorts, Reels, and long-form content. Fast-paced editing, sound design, and viral-style storytelling.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">VE</div>
+            <ul class="nav-links">
+                <li><a href="#showreel">Showreel</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Video Editor</h1>
+            <p class="hero-subtitle">I create high-retention edits for YouTube & Shorts that keep viewers watching</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollTo('#showreel')">Watch Showreel</button>
+                <button class="btn btn-secondary" onclick="scrollTo('#contact')">Contact Me</button>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- SHOWREEL SECTION -->
+    <section id="showreel" class="showreel">
+        <div class="container">
+            <h2>Showreel</h2>
+            <p class="section-subtitle">Best edits from 2024-2025</p>
+            <div class="showreel-wrapper">
+                <iframe 
+                    class="showreel-video"
+                    src="https://www.youtube.com/embed/H0IriFBB-GY?rel=0" 
+                    title="Showreel"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen="">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p class="section-subtitle">Recent edits & viral content</p>
+            
+            <div class="video-grid">
+                <!-- Video 1 -->
+                <div class="video-card" data-category="montage">
+                    <div class="video-container">
+                        <iframe 
+                            class="lazy-video"
+                            data-src="https://www.youtube.com/embed/H0IriFBB-GY?rel=0"
+                            title="Gaming Montage"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen="">
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Gaming Montage</h3>
+                        <p class="tag">Montage • Pacing • Sound Design</p>
+                        <p class="description">Fast-paced gaming highlights with synced audio and high-impact cuts to maximize retention.</p>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="video-card" data-category="shorts">
+                    <div class="video-container short-form">
+                        <iframe 
+                            class="lazy-video"
+                            data-src="https://www.youtube.com/embed/Xhuvk_MC36U?rel=0"
+                            title="Viral Edit"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen="">
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Viral Edit</h3>
+                        <p class="tag">Short-form • Trending Audio • Fast Cuts</p>
+                        <p class="description">High-energy short-form content optimized for YouTube Shorts with trending audio and dynamic transitions.</p>
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="video-card" data-category="shorts">
+                    <div class="video-container short-form">
+                        <iframe 
+                            class="lazy-video"
+                            data-src="https://www.youtube.com/embed/baj4C8e6Dnw?rel=0"
+                            title="Shorts Edit"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen="">
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Shorts Edit</h3>
+                        <p class="tag">Shorts • Gaming • Retention Focus</p>
+                        <p class="description">Vertical format optimized for maximum watch time with strategic cuts and pacing techniques.</p>
+                    </div>
+                </div>
+
+                <!-- Video 4 -->
+                <div class="video-card" data-category="shorts">
+                    <div class="video-container short-form">
+                        <iframe 
+                            class="lazy-video"
+                            data-src="https://www.youtube.com/embed/XR_4hsg7q7A?rel=0"
+                            title="Dynamic Short"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen="">
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Dynamic Short</h3>
+                        <p class="tag">Shorts • Engaging • Motion Sync</p>
+                        <p class="description">Motion-synced editing with strategic B-roll and sound design to drive engagement and shareability.</p>
+                    </div>
+                </div>
+
+                <!-- Video 5 -->
+                <div class="video-card" data-category="shorts">
+                    <div class="video-container short-form">
+                        <iframe 
+                            class="lazy-video"
+                            data-src="https://www.youtube.com/embed/ikEdDfkJguE?rel=0"
+                            title="Clip Edit"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen="">
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Clip Edit</h3>
+                        <p class="tag">Shorts • Gaming Clips • Fast Pacing</p>
+                        <p class="description">Quick-cut gaming clips with heavy sound design and color grading for viral potential.</p>
+                    </div>
+                </div>
+
+                <!-- Video 6 -->
+                <div class="video-card" data-category="shorts">
+                    <div class="video-container short-form">
+                        <iframe 
+                            class="lazy-video"
+                            data-src="https://www.youtube.com/embed/JqXiu05beos?rel=0"
+                            title="Trend Edit"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen="">
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Trend Edit</h3>
+                        <p class="tag">Shorts • Trending Format • Storytelling</p>
+                        <p class="description">Trending short-form format with narrative flow and strategic pacing to maintain viewer attention.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a freelance video editor specializing in <strong>high-retention content</strong> for YouTube creators and short-form platforms. I focus on pacing, storytelling, and viral-style editing techniques that keep viewers engaged from the first frame.</p>
+                    <p>My approach combines fast-paced cuts, strategic sound design, and motion-synced editing to create content that doesn't just get watched—it gets shared.</p>
+                </div>
+                <div class="skills">
+                    <h3>Skills & Tools</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Adobe Premiere Pro</span>
+                        <span class="skill-tag">After Effects</span>
+                        <span class="skill-tag">CapCut</span>
+                        <span class="skill-tag">YouTube Shorts</span>
+                        <span class="skill-tag">Sound Design</span>
+                        <span class="skill-tag">Color Grading</span>
+                        <span class="skill-tag">Motion Sync</span>
+                        <span class="skill-tag">Viral Editing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Work Together</h2>
+            <p class="section-subtitle">Ready to take your content to the next level?</p>
+            <div class="contact-methods">
+                <div class="contact-card">
+                    <h3>Discord</h3>
+                    <p>DM me on Discord for quick collaboration</p>
+                    <a href="https://discord.com" class="contact-link" target="_blank">Your Discord Username</a>
+                </div>
+                <div class="contact-card">
+                    <h3>Email</h3>
+                    <p>For formal inquiries and project details</p>
+                    <a href="mailto:your.email@example.com" class="contact-link">your.email@example.com</a>
+                </div>
+            </div>
+            <div class="cta-section">
+                <p>I typically respond within 24 hours. Let's create something amazing.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Video Editor Portfolio. Built with passion for creators.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
